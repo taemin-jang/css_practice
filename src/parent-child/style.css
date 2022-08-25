@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1080px;
+  padding: 40px;
+  margin: auto;
+}
+
+article {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* article 태그의 바로 하위에 있는 h1 태그를 가리킨다. */
+article > h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+article p {
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode h1,
+.dark-mode p {
+  color: #eee;
+}
